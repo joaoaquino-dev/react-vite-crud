@@ -1,16 +1,36 @@
-# React + Vite
+# react-vite-crud
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface de cadastro de usuários integrada a uma API REST, desenvolvida com React, Vite e CSS puro.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- Axios
+- CSS
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listagem de usuários
+- Cadastro de usuários
+- Remoção de usuários
+- Validação de campos
+- Feedback de loading e erro
 
-## Expanding the ESLint configuration
+## Como rodar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone o repositório
+2. Instale as dependências
+```bash
+   npm install
+```
+3. Configure o `.env` com base no `.env.example`
+```
+   VITE_API_URL=http://localhost:3000
+```
+4. Inicie o projeto
+```bash
+   npm run dev
+```
+
+> O back-end precisa estar rodando. Repositório: [node-express-prisma-crud](https://github.com/joaoaquino-dev/node-express-prisma-crud)

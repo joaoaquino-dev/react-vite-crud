@@ -2,6 +2,9 @@
 
 Interface de cadastro de usuários integrada a uma API REST, desenvolvida com React, Vite e CSS puro.
 
+## Demo
+🔗 [Acesse o projeto](https://react-vite-crud-kappa.vercel.app)
+
 ## Tecnologias
 
 - React
@@ -26,7 +29,7 @@ Interface de cadastro de usuários integrada a uma API REST, desenvolvida com Re
 ```
 3. Configure o `.env` com base no `.env.example`
 ```
-   VITE_API_URL=http://localhost:3000
+   VITE_API_URL=https://node-express-prisma-crud.onrender.com
 ```
 4. Inicie o projeto
 ```bash

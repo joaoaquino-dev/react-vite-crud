@@ -7,6 +7,8 @@ Projeto de estudo desenvolvido a partir de um curso, com ajustes de configuraç�
 🔗 **Demo em produção:** [react-vite-crud-kappa.vercel.app](https://react-vite-crud-kappa.vercel.app)
 🔙 **API REST consumida por este projeto:** [node-express-prisma-crud](https://github.com/joaoaquino-dev/node-express-prisma-crud)
 
+> **English:** Study React + Vite frontend for user registration and listing integrated with a custom Node/Express/Prisma REST API. Detailed documentation below is in Portuguese.
+
 ## Tecnologias
 
 - React 19
